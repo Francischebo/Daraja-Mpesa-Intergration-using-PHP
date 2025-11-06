@@ -14,11 +14,11 @@ if ($conn->connect_error) {
 }
 
 // Daraja API configuration
-$consumer_key = 'nk16Y74eSbTaGQgc9WF8j6FigApqOMWr';
-$consumer_secret = '40fD1vRXCq90XFaU';
+$consumer_key = 'sxQ7kfGLXEweGaQG5S8OHBFeF3SZfV8VQlH9vkFl3noYQ15O';
+$consumer_secret = 'bogcMuDayraXD9KeH6mfHd8zDfvJeNueGE8iLTx5xda40PnyGPslwncFqJfdCUx6';
 $business_short_code = '174379';
 $passkey = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919';
-$callback_url = 'https://655a-196-250-209-180.ngrok-free.app/callback.php';
+$callback_url = 'https://molabsphpmpesaintegration.netlify.app/callback.php';
 
 // Function to generate access token
 function getAccessToken($consumer_key, $consumer_secret) {
